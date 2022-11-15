@@ -1,5 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url('../img/pexels-fauxels-3183165.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    width:100%;
+    padding:150px 50px;
 }
 
 .container{
@@ -9,15 +18,24 @@ body{
     padding:50px;
     display:flex;
     justify-content: space-between;
+    backdrop-filter: blur(10px);
+    border-radius:10px;
 }
 
-.users-wrapper{
-    width:45%;
-}
+/* ul{
+    background-color:rgba(8, 8, 244, 0.3);
+    padding:50px;
+} */
 
+.users-wrapper,
 .employees-wrapper{
     width:45%;
+    background-color:rgba(8, 8, 244, 0.3);
+    padding-top:20px;
+    color:white;
 }
+
+
 
 h1{
     color:red;
