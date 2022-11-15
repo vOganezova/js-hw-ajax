@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    padding:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.users-wrapper{
+    width:45%;
+}
+
+.employees-wrapper{
+    width:45%;
+}
+
+h1{
+    color:red;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.arrows{
+    width:50px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    cursor:pointer;
+}
+
+i:hover{
+    color:red;
+}
